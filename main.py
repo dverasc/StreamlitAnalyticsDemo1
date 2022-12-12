@@ -10,7 +10,7 @@ first_file = st.file_uploader('Select the stock data file (IBM weekly default pr
 if first_file is not None:
    df1 = pd.read_csv(first_file,index_col='Date',parse_dates=True)
 else:
-    df1 = pd.read_csv('/Users/diegoveras/StreamlitAnalyticsDemo/DefaultValues/weekly_IBM.csv')
+    df1 = pd.read_csv('/Users/diegoveras/StreamlitAnalyticsDemo1/DefaultValues/weekly_IBM.csv')
 
 fig1 = px.line(df1, x = 'timestamp', y = 'open', title='Weekly Stock Data')
 fig2 = px.line(df1, x = 'timestamp', y = 'high', title='Weekly Stock Data')

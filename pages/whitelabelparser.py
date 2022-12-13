@@ -45,7 +45,7 @@ if bookfile is not None:
                     ('Yes', 'No'), key = index
                     )
             if keyname1 == 'No':
-                questionfield = col4.text_input('Manual override for ' + row)
+                questionfield = col4.text_input('Manual override for ' + keyname)
                 csdf1.at[index,'Value']= questionfield
             elif keyname1 == 'Yes':
                 keycolumn = (csdf1['Key'])

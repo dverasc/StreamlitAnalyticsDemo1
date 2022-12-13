@@ -1,0 +1,12 @@
+{
+      "book_id": "bk001",
+      "author": "Linda Johnson",
+      "title": "Much Ado about Nothing",
+      "genre": "Classics",
+      "price": 10.99,
+      "pub_date": "10/01/2000",
+      "review": "An amazing story of nothing.",
+      "availability": false
+}
+   
+  
